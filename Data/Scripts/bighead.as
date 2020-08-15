@@ -63,6 +63,11 @@ void ResetExistingCharacters(){
         MovementObject @_char = ReadCharacter(i);
         Object @_obj = ReadObjectFromID(_char.GetID());
         ScriptParams @_params = _obj.GetScriptParams();
+
+        if(!_params.HasParam(_bighead_key)){
+            continue;
+        }
+
         SetInitialBigHead(_params);
     }
 }
