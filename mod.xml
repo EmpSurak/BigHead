@@ -1,0 +1,25 @@
+<? xml version="1.0" ?>
+<Mod>
+    <Id>com-surak-bighead</Id> 
+    <Name>BigHead!</Name> 
+
+    <Category>Script</Category>
+
+    <Thumbnail>Data/Images/bighead/thumb.jpg</Thumbnail>
+    <PreviewImage>Data/Images/bighead/thumb.jpg</PreviewImage>
+
+    <Description>Damage increases the head size!</Description>
+    <Version>0.0.2</Version>
+    <Author>Surak</Author>
+    <Tag>scripting</Tag>
+
+    <SupportedVersion>*</SupportedVersion>
+    <NeedsRestart>false</NeedsRestart>
+    
+    <ModDependency>
+       <Id>com-surak-timed-execution</Id>
+       <Version>0.13.0</Version> 
+    </ModDependency>
+    
+    <LevelHookFile>Data/Scripts/bighead.as</LevelHookFile>
+</Mod>
