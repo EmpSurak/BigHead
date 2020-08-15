@@ -11,7 +11,9 @@
     <Description>Damage increases the head size!</Description>
     <Version>0.0.3</Version>
     <Author>Surak</Author>
-    <Tag>scripting</Tag>
+    <Tag>Scripting</Tag>
+    <Tag>Unreal Tournament</Tag>
+    <Tag>Mutator</Tag>
 
     <SupportedVersion>*</SupportedVersion>
     <NeedsRestart>false</NeedsRestart>
